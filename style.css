@@ -1,0 +1,49 @@
+.firstpage {
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid ghostwhite;
+    border-radius: 10px;
+}
+
+#name {
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#email {
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#phone {
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+input[type=submit] {
+    background-color: blue;
+
+    color: green;
+    font-size: 30px;
+    width: 400px;
+}
+
+/* body {
+    background-image: url("https://i.stack.imgur.com/spmUM.gif");
+  } */

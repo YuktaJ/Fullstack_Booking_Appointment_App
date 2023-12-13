@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment Booking Form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Book an Appointment</h1>
+    <form id="appointmentForm" onsubmit='yukta(event)'>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Book Appointment">
+      </div>
+    </form>
+  </div>
+  <ul id="ul">
+
+  </ul>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
